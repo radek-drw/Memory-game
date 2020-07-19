@@ -1,0 +1,68 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+div {
+   flex-basis: 15%;
+   flex-grow: 1;
+   height: 33.33vh;
+   border: 3px solid #fff;
+}
+
+@media (orientation: portrait) {
+   div {
+      flex-basis: 30%;
+      height: 16.66vh;
+   }
+}
+
+.red {
+   background-color: red;
+}
+
+.lightgreen {
+   background-color: lightgreen;
+}
+
+.royalblue {
+   background-color: royalblue;
+}
+
+.orange {
+   background-color: orange;
+}
+
+.yellow {
+   background-color: yellow;
+}
+
+.brown {
+   background-color: brown;
+}
+
+.violet {
+   background-color: violet;
+}
+
+.pink {
+   background-color: pink;
+}
+
+.olive {
+   background-color: olive;
+}
+
+.hidden {
+   background-color: #000;
+}
+
+.off {
+   background-color: #d3d3d3;
+}
