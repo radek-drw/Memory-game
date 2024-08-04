@@ -1,4 +1,4 @@
-##Memory Match Game
+## Memory Match Game
 
 This JavaScript memory game consists of a grid of cards, each hiding one of several pairs of colors. The game logic involves the following steps:
 
